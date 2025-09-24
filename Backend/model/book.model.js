@@ -8,5 +8,5 @@ const bookSchema = mongoose.Schema({
     title: String,
 });
 const Book = mongoose.model("Book", bookSchema);
-
+console.log("table created")
 export default Book;
